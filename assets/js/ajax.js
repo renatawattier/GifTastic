@@ -1,9 +1,9 @@
-var topics = ["Nurse Ratched", "Cobra Kai", "Nazaré Tedesco", "Alex DeLarge", "Patrick Bateman", "Jack Torrence", "Annie Wilkes", "Hannibal Lecter"];
+var topics = ["Nurse Ratched", "Ramsay Bolton", "Negan", "Alex DeLarge", "Patrick Bateman", "Jack Torrence", "Annie Wilkes", "Hannibal Lecter", "James Delaney"];
 
 function displayGifs() {
     var x = $(this).attr("data-name");
     var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
-    x + "&api_key=dc6zaTOxFJmzC&limit=10";
+    x + "&api_key=C4M7t97oJVWmsqF6JwdHzMutPBAZ35TZ&limit=10";
     $.ajax({
       url: queryURL,
       method: "GET"
